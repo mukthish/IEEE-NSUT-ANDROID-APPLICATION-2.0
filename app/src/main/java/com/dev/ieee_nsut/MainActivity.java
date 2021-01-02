@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity
                             AppCompatDelegate
                                     .MODE_NIGHT_YES);
             btnToggleDark.setText(
-                    "Disable Dark Mode");
+                    "Dark Mode");
         }
         else {
             AppCompatDelegate
@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity
                                     .MODE_NIGHT_NO);
             btnToggleDark
                     .setText(
-                            "Enable Dark Mode");
+                            "Light Mode");
         }
 
         btnToggleDark.setOnClickListener(
@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity
 
                             // change text of Button
                             btnToggleDark.setText(
-                                    "Enable Dark Mode");
+                                    "Light Mode");
                         }
                         else {
 
@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity
 
                             // change text of Button
                             btnToggleDark.setText(
-                                    "Disable Dark Mode");
+                                    "Dark Mode");
                         }
                     }
                 });
