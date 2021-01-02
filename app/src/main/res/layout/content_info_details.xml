@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
+    android:background="@color/backgroundColorr"
     android:fillViewport="true"
     android:id="@+id/info_details_root_scroll_view"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:text="Brutevision dsdf"
-            android:textColor="@android:color/black"
+            android:textColor="@color/textColor"
             android:textSize="20sp"
             android:textIsSelectable="true"/>
 
@@ -33,6 +33,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/date_text_view"
             android:textSize="11sp"
+            android:textColor="@color/textColor"
             android:text="12th Dec, 1920"/>
 
         <TextView
@@ -42,7 +43,7 @@
             android:text="asdasdsads\nadas"
             android:textIsSelectable="true"
             android:layout_marginTop="8dp"
-            android:textColor="@android:color/black"
+            android:textColor="@color/textColor"
             android:textSize="16sp"
             android:layout_marginBottom="8dp"/>
 
