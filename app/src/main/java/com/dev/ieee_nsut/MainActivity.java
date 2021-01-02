@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity
 
                             // change text of Button
                             btnToggleDark.setText(
-                                    "Dark Mode");
+                                    "`Dark Mode");
                         }
                     }
                 });
