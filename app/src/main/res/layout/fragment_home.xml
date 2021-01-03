@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/backgroundColorr"
     android:orientation="vertical"
     tools:context="com.dev.ieee_nsut.fragments.HomeFragment">
 
@@ -51,6 +52,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/backgroundColorr"
         android:layout_marginBottom="4dp"
         android:layout_marginEnd="@dimen/horizontal_margin"
         android:layout_marginStart="@dimen/horizontal_margin"
@@ -61,6 +63,8 @@
             android:id="@+id/item_recycler_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@color/backgroundColorr"
+            app:itemTextColor="@color/textColor"
             tools:listitem="@layout/home_recycler_layout" />
 
     </androidx.cardview.widget.CardView>
